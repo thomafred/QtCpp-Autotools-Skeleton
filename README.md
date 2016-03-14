@@ -1,7 +1,7 @@
-Qt/C++ Autotools Library Template
+Qt/C++ Autotools Skeleton
 ===================================
 
-This is a template skeleton project for Qt/C++ projects.
+This is a skeleton project for Qt/C++ projects.
 
 
 Structure
@@ -18,4 +18,15 @@ Structure
  |- tests : Test source (unit tests, functionality tests, etc)
   |- unitTests : Unit tests
 ```
+Building
+---------
+In order to build, run the following commands:
 
+```bash
+[PROJECT_ROOT]$ ./autogen.sh
+[PROJECT_ROOT]$ mkdir -p bin && cd bin
+[PROJECT_ROOT]$ ../configure
+[PROJECT_ROOT]$ make
+```
+
+The compiled executable will be available in in **bin/src/app/qthello**.
