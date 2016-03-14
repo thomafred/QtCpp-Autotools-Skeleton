@@ -63,7 +63,7 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([ 
           Makefile 
           src/Makefile
-          src/lib/gpuMath/Makefile
+          src/lib/libname/Makefile
           src/app/Makefile
           bindings/Makefile
           examples/Makefile
